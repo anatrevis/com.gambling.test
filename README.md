@@ -33,7 +33,7 @@ This is the first screen you see. It has a select where you can choose which off
 I utilised an input validation on the form so if you try to invite affiliates without selecting an office, a warning will pop up.
 ![alt text](https://github.com/anatrevis/com.gambling.test/blob/master/systemImages/screen2.png?raw=true)
 I created Dublin Office and a Fake Office with a different address (in Dundalk, around 80km far from Dublin Office) for demonstration purposes. They will throw different results.
-![alt text](https://github.com/anatrevis/com.gambling.test/blob/master/systemImages/screen2.png?raw=true)
+![alt text](https://github.com/anatrevis/com.gambling.test/blob/master/systemImages/screen3.png?raw=true)
 After selecting the Dublin Office, this should be the output:
 ![alt text](https://github.com/anatrevis/com.gambling.test/blob/master/systemImages/screen4.png?raw=true)
 
