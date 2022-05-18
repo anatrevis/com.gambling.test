@@ -26,6 +26,14 @@ Then you can click in the url, and you will be able to visualize the interface.
 
 ## Interface
 
+This is the first screen you see. It has a select where you can choose which office is inviting the affiliates. You are able to add multiple offices to the system.
+![alt text](https://github.com/anatrevis/com.gambling.test/blob/master/systemImages/screen1.png?raw=true)
+I utilised an input validation on the form so if you try to invite affiliates without selecting an office, a warning will pop up.
+![alt text](https://github.com/anatrevis/com.gambling.test/blob/master/systemImages/screen2.png?raw=true)
+I created Dublin Office and a Fake Office with a different address (in Dundalk, around 80km far from Dublin Office) for demonstration purposes. They will throw different results.
+![alt text](https://github.com/anatrevis/com.gambling.test/blob/master/systemImages/screen2.png?raw=true)
+After selecting the Dublin Office, this should be the output:
+![alt text](https://github.com/anatrevis/com.gambling.test/blob/master/systemImages/screen4.png?raw=true)
 
 
 ## Run the tests
@@ -33,8 +41,11 @@ Then you can click in the url, and you will be able to visualize the interface.
 After running your application, you can run the tests by the following command:
 #### $ php artisan test
 
-## Dependencies Versions
+## Final Considerations
 
+This program could be easily expandable with different features. I could add a field for selecting a specific distance range, for example. Or I could have set an email sender which would send an invitation email for each affiliate, and so on. The program also could use more testing. In this version, I tested the Distance Formula and did some Application tests for demonstration purposes.
+
+## Dependencies Versions
 The specific versions from each dependency are:
 
 #### mysql  Ver 14.14 Distrib 5.7.34, for osx10.12 (x86_64)
