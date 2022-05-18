@@ -22,6 +22,12 @@ Finally, do the database migrations and seeding, run the webserver.
 #### $ php artisan db:seed
 #### $ php artisan serve 
 
+Then you can click in the url, and you will be able to visualize the interface.
+
+## Interface
+
+
+
 ## Run the tests
 
 After running your application, you can run the tests by the following command:
