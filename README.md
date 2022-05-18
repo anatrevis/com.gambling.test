@@ -11,7 +11,9 @@ See the following list of commands necessary to execute the code:
 #### $ cd gambling.test.git 
 #### $ composer-update
 
-After, create a database called "gambling" and set your .env file to connect with your database.
+After, create a database called "gambling" and set your .env file to connect with your database. 
+You can create a .env file by creating a copy from .envAna and only change the name of the file to ".env" and changing DB_HOST,
+DB_PORT, DB_USERNAME and DB_PASSWORD for your parameters.
 #### $ mysql -u root -p
 #### mysql> CREATE DATABASE gambling;
 #### mysql> exit;
