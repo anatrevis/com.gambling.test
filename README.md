@@ -1,12 +1,7 @@
-# Test Description
-
-_____________________________________________________________________________________________
 # About
 This code challenge was made using the Laravel framework, MySQL database and Bootstrap. I utilised a MAMP installation. Refer to the last section for versions specifications.
 
 The file affiliates.txt is at com.gambling.test/database/seeders and is used as an input for populating a MySQL database.
-
-![alt text]()
 
 #Run the code
 
