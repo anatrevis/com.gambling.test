@@ -3,7 +3,7 @@ This code challenge was made using the Laravel framework, MySQL database and Boo
 
 The file affiliates.txt is at com.gambling.test/database/seeders and is used as an input for populating a MySQL database.
 
-#Run the code
+# Run the code
 
 See the following list of commands necessary to execute the code:
 
@@ -22,12 +22,12 @@ Finally, do the database migrations and seeding, run the webserver.
 #### $ php artisan db:seed
 #### $ php artisan serve 
 
-##Run the tests
+## Run the tests
 
 After running your application, you can run the tests by the following command:
 #### $ php artisan test
 
-##Dependencies Versions
+## Dependencies Versions
 
 The specific versions from each dependency are:
 
